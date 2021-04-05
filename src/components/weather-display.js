@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {connect} from 'react-redux';
 import weatherService from '../services/weather-service.js';
 import WeatherCard from './weather-card.js';
+import findWeatherForCity from '../services/weather-service.js'
+import {Link, Route, useParams} from "react-router-dom";
 
 const WeatherDisplay = (
     {

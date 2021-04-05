@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import {connect} from 'react-redux';
+import {Link, Route, useParams} from "react-router-dom";
 import areaService, { findAllAreas } from "../services/area-service";
 
 const AreaList = (
