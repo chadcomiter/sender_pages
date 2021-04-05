@@ -6,7 +6,6 @@ import areaReducer from './reducers/area-reducer';
 import weatherReducer from './reducers/weather-reducer';
 import AreaList from './components/area-list.js';
 import WeatherDisplay from './components/weather-display.js';
-import { BrowserRouter } from 'react-router-dom';
 
 const reducer = combineReducers({
   areaReducer,
